@@ -25,6 +25,7 @@ Load Test performed on MyProxy exposed APIs against diferent country codes.
 Based on the TEST_TYPE environment variable passed (accepts two values - WithYARP or WithOutYARP), this script tests either the YARP or non-YARP version.
 
 To run this using docker containers use the below commands,
+
 **WithOutYARP**
 ```bash
 cd loadtest
