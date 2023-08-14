@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "NKFP20MlhEnKCl3C3S3LkKk30ljw10PyXPwDc7Iw7ZHxTTnxXEJ6o5KnktCQzsWdpsGb8RubPH27q4cgemSahQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jjk_c\\source\\repos\\hello-yarp\\MyProxy\\MyProxy.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jjk_c\\.nuget\\packages\\system.io.hashing\\7.0.0\\system.io.hashing.7.0.0.nupkg.sha512",
+    "C:\\Users\\jjk_c\\.nuget\\packages\\yarp.reverseproxy\\2.0.1\\yarp.reverseproxy.2.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
