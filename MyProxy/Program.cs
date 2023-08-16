@@ -47,7 +47,7 @@ using (var scope = app.Services.CreateScope())
 
     app.Map(
         "/withyarp/{**catch-all}", async httpContext => {
-            Console.WriteLine("receiving call - with.start");
+            //Console.WriteLine("receiving call - with.start");
             var cid = httpContext.GetRouteValue("cid")?.ToString();
 
             httpContext.Request.Path = httpContext.Request.Path.ToString().Replace("/withyarp/", "/");
@@ -60,7 +60,7 @@ using (var scope = app.Services.CreateScope())
                 var errorFeature = httpContext.GetForwarderErrorFeature();
                 var exception = errorFeature?.Exception;
             } 
-            Console.WriteLine("receiving call - with.end");
+            //Console.WriteLine("receiving call - with.end");
         }
     );
 }

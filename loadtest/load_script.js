@@ -20,17 +20,17 @@ export default function () {
 }
 
 function WithYarp() {
-    http.get('http://host.docker.internal:5272/withyarp/can');
-    http.get('http://host.docker.internal:5272/withyarp/mex');
-    http.get('http://host.docker.internal:5272/withyarp/esp');
-    http.get('http://host.docker.internal:5272/withyarp/cam');
-    http.get('http://host.docker.internal:5272/withyarp/per');
+    http.get('https://host.docker.internal:7254/withyarp/can');
+    http.get('https://host.docker.internal:7254/withyarp/mex');
+    http.get('https://host.docker.internal:7254/withyarp/esp');
+    http.get('https://host.docker.internal:7254/withyarp/cam');
+    http.get('https://host.docker.internal:7254/withyarp/per');
 }
 
 function WithoutYarp() {
-    http.get('http://host.docker.internal:5272/withoutyarp/can');
-    http.get('http://host.docker.internal:5272/withoutyarp/mex');  
-    http.get('http://host.docker.internal:5272/withoutyarp/esp');  
-    http.get('http://host.docker.internal:5272/withoutyarp/cam');  
-    http.get('http://host.docker.internal:5272/withoutyarp/per');
+    http.get('https://host.docker.internal:7254/withoutyarp/can');
+    http.get('https://host.docker.internal:7254/withoutyarp/mex');  
+    http.get('https://host.docker.internal:7254/withoutyarp/esp');  
+    http.get('https://host.docker.internal:7254/withoutyarp/cam');  
+    http.get('https://host.docker.internal:7254/withoutyarp/per');
 }
